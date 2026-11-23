@@ -1,0 +1,14 @@
+fastapi>=0.111
+uvicorn>=0.29
+pydantic>=2.7
+
+[dev]
+pytest>=8.0
+httpx>=0.27
+
+[eval]
+pandas>=2.0
+matplotlib>=3.8
+
+[semantic]
+sentence-transformers>=3.0
